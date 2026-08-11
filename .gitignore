@@ -1,0 +1,43 @@
+# --- Datasets (large blobs; not tracked — see README "Data setup") ---
+data/*
+!data/__init__.py
+!data/dataset.py
+!data/collate.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Model / training artifacts ---
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+outputs/
+logs/
+wandb/
+
+# --- Notebooks / OS / editor ---
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# --- Secrets ---
+.env
+*.env

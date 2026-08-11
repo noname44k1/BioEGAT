@@ -1,0 +1,22 @@
+{
+  "primekg": {
+    "label": "PrimeKG",
+    "file": "primekg_demo.json",
+    "n": 20
+  },
+  "drugmechdb": {
+    "label": "DrugMechDB",
+    "file": "drugmechdb_demo.json",
+    "n": 20
+  },
+  "hetionet": {
+    "label": "Hetionet",
+    "file": "hetionet_demo.json",
+    "n": 20
+  },
+  "pharmkg": {
+    "label": "PharmKG",
+    "file": "pharmkg_demo.json",
+    "n": 20
+  }
+}
