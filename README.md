@@ -9,9 +9,8 @@ explanatory layer for mechanistic reasoning. Modules 1–4 form the scored pipel
 ![Main Pipeline](./model.png)
 
 ## Requirements
-**Note:** install the appropriate PyTorch and DGL build with CUDA support.
+**Note:** install the appropriate PyTorch and DGL build with CUDA support (using python 3.12).
 ```bash
-# python 3.12
 torch==2.3.1+cu118
 dgl==2.4.0+cu118
 ogb==1.3.6
@@ -114,7 +113,7 @@ python infer.py \
 
 [Link to online web application (Huggingface)](https://huggingface.co/spaces/Lloyd9811/BioEGAT-Demo)
 
-## Citation
+<!-- ## Citation
 
 This work builds on DrKGC:
 ```bibtex
@@ -128,4 +127,4 @@ This work builds on DrKGC:
     doi = "10.18653/v1/2025.findings-emnlp.892",
     pages = "16432--16445", ISBN = "979-8-89176-335-7",
 }
-```
+``` -->
