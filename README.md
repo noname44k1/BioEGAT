@@ -1,9 +1,12 @@
 # BioEGAT
 
-A decoupled **GNN–LLM pipeline for biomedical knowledge-graph completion**. BioEGAT casts KGC as a cascade
+**BioEGAT** is a decoupled GNN–LLM pipeline for Biomedical Knowledge Graph Completion. BioEGAT casts KGC as a cascade
 of five modules: (1) KGE candidate retrieval, (2) dynamic subgraph retrieval, (3) an edge-featured GAT
 reranker fused with an InteractE adapter, (4) LoRA LLM reranking with graph-embedding injection, and (5) an
-explanatory layer for mechanistic reasoning. Modules 1–4 form the scored pipeline; Module 5 functions as an explanatory layer.
+explanatory layer for mechanistic reasoning. Modules 1–4 form the scored pipeline, and Module 5 functions as an explanatory layer.
+
+### Main Pipeline
+![Main Pipeline](./model.png)
 
 ## Requirements
 **Note:** install the appropriate PyTorch and DGL build with CUDA support.
@@ -106,8 +109,10 @@ python infer.py \
 | `hf_space/` | Public demonstrator (Module 5: explanatory context & mechanistic reasoning) |
 | `*-hypo.py`, `run_bioegat-hypo.sh` | LLM-hypothesis-augmented variant (Module-1 candidate union) |
 
-## Demostration
+## Running the Interactive Web Demo App
 [Demo](https://github.com/user-attachments/assets/32e85e22-203f-437f-9903-3483bde621d7)
+
+[Link to online web application (Huggingface)](https://huggingface.co/spaces/Lloyd9811/BioEGAT-Demo)
 
 ## Citation
 
