@@ -108,7 +108,7 @@ python infer.py \
 | `hf_space/` | Public demonstrator (Module 5: explanatory context & mechanistic reasoning) |
 | `*-hypo.py`, `run_bioegat-hypo.sh` | LLM-hypothesis-augmented variant (Module-1 candidate union) |
 
-## Running the Interactive Web Demo App
+## The web application
 [Demo](https://github.com/user-attachments/assets/32e85e22-203f-437f-9903-3483bde621d7)
 
 [Link to online web application (Huggingface)](https://huggingface.co/spaces/Lloyd9811/BioEGAT-Demo)
