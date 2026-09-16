@@ -1,4 +1,4 @@
-# BioEGAT
+# BioEGAT: Link Prediction on Biomedical Knowledge Graph via Edge-featured GAT and LLM-based Reranking
 
 **BioEGAT** is a decoupled GNN–LLM pipeline for Biomedical Knowledge Graph Completion. BioEGAT casts KGC as a cascade
 of five modules: (1) KGE candidate retrieval, (2) dynamic subgraph retrieval, (3) an edge-featured GAT
