@@ -110,9 +110,11 @@ python infer.py \
 
 ## The web application
 
+[**Link to Supplementary material**](https://github.com/noname44k1/BioEGAT/blob/main/supplementary/Supplementary_file.pdf)
+
 [**Link to online web application (Huggingface)**](https://huggingface.co/spaces/Lloyd9811/BioEGAT-Demo)
 
-[**Link to Supplementary material**](https://github.com/noname44k1/BioEGAT/blob/main/supplementary/Supplementary_file.pdf)
+[**Link to video demo**](https://github.com/user-attachments/assets/32e85e22-203f-437f-9903-3483bde621d7)
 
 [Demo](https://github.com/user-attachments/assets/32e85e22-203f-437f-9903-3483bde621d7)
 
