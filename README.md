@@ -3,7 +3,7 @@
 **BioEGAT** is a decoupled GNN–LLM pipeline for Biomedical Knowledge Graph Completion. BioEGAT casts KGC as a cascade
 of five modules: (1) KGE candidate retrieval, (2) dynamic subgraph retrieval, (3) an edge-featured GAT
 reranker fused with an InteractE adapter, (4) LoRA LLM reranking with graph-embedding injection, and (5) an
-explanatory layer for mechanistic reasoning. Modules 1–4 form the scored pipeline, and Module 5 functions as an explanatory layer.
+explanatory layer for mechanistic reasoning. Modules 1–4 form the scored pipeline, and Module 5 functions as an explanatory layer (Module 5 is described in detail in the accompanying supplementary file).
 
 ### Main Pipeline
 ![Main Pipeline](./model.png)
